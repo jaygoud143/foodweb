@@ -1,0 +1,26 @@
+
+/* Styles for the navigation bar */
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 20px 20px;
+  color: white;
+  height: 60px;
+}
+
+/* Left and Right tab styling */
+.left-tab,
+.right-tab {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.left-tab a,
+.right-tab a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
